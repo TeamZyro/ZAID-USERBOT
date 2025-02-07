@@ -12,7 +12,7 @@ clients = []
 ids = []
 
 SUDO_USERS.append(OWNER_ID)
-
+import asyncio
 from aiohttp import ClientSession
 
 loop = asyncio.get_event_loop()
